@@ -1,8 +1,9 @@
 export const config = {
   telegram: {
-    token: process.env.TELEGTAM_BOT_TOKEN,
+    token: process.env.TELEGRAM_BOT_TOKEN,
+    dbName: 'telegraf-bot-mvp',
   },
   mongodb: {
-    uri: process.env.MONGO_DB,
+    uri: process.env.MONGO_DB_URI,
   },
 };
