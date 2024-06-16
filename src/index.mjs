@@ -1,7 +1,7 @@
-import './modules/telegram/telegram.lib.mjs'
+import telegram from './libs/telegram.mjs'
 
 async function main() {
-  console.log('Hello World');
+  await telegram.launch();
 }
 
 main();
